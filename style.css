@@ -44,5 +44,11 @@ body{
 	text-align:center;
 	vertical-align: middle;
 	border-radius: 30px;
-
+}
+.gameChoice:hover{
+	background-color: #333333;
+}
+a{
+	text-decoration:none;
+	color: #FFFFFF;
 }
