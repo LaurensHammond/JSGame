@@ -25,3 +25,9 @@ body{
 	background-color: #3E3F49;
 	padding: 20px;
 }
+#footer{
+	width: 960px;
+	min-height: 20px;
+	background-color: #000000;
+	padding: 20px;
+}
