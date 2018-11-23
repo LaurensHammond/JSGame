@@ -4,3 +4,10 @@ body{
 	padding: 0;
 	margin: 0;
 }
+#container{
+	background-color: #5F5F6B;
+	width: 62%;
+	min-height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
