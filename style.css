@@ -62,3 +62,9 @@ a{
 	margin-left:auto;
 	margin-right:auto;
 }
+.rod{
+	width:154px;
+	height:244px;
+	border: 3px solid #999999;
+	float: left;
+}
