@@ -4,8 +4,8 @@ The aim of it is reminding the structure of JS which
 has not been used by me for a long time and a proof 
 of my programming skills.
 
-##Author
-*Konrad Łopuszyński (konrad.lopuszynski@outlook.com)
+## Author
+* Konrad Łopuszyński (konrad.lopuszynski@outlook.com)
 
 ##Description
 
