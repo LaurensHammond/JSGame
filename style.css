@@ -49,6 +49,7 @@ body{
 .gameChoice:hover{
 	background-color: #333333;
 }
+
 a{
 	text-decoration:none;
 	color: #FFFFFF;
@@ -64,9 +65,13 @@ a{
 }
 .rod{
 	background-image: url("hanoiPic/background.png");
-	width:154px;
-	height:244px;
-	border: 3px solid #999999;
+	width:155px;
+	border: 2.5px solid #999999;
 	float: left;
 	color: #999999;
+}
+img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
 }
