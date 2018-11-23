@@ -7,7 +7,7 @@ of my programming skills.
 ## Author
 * Konrad Łopuszyński (konrad.lopuszynski@outlook.com)
 
-##Description
+## Description
 
 _Tower of Hanoi_
  
