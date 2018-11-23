@@ -6,8 +6,16 @@ body{
 }
 #container{
 	background-color: #5F5F6B;
-	width: 62%;
-	min-height: 1000px;
+	width: 1000px;
+	min-height: 700px;
 	margin-left: auto;
 	margin-right: auto;
+}
+#top{
+	background-color: #7F7F8F;
+	width: 960px;
+	height: 110px;	
+	padding:20px;
+	text-align:center;
+	font-size:50px;
 }
