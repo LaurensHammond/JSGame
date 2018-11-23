@@ -4,8 +4,12 @@ The aim of it is reminding the structure of JS which
 has not been used by me for a long time and a proof 
 of my programming skills.
 
+##Author
+*Konrad Łopuszyński (konrad.lopuszynski@outlook.com)
 
-Tower of Hanoi
+##Description
+
+_Tower of Hanoi_
  
 The Tower of Hanoi is a mathematical game that is won 
 if the player moves all the disks from one rod to 
