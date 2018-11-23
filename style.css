@@ -10,6 +10,7 @@ body{
 	min-height: 700px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align:center;
 }
 #top{
 	background-image: linear-gradient(#7F7F8F, #3E3F49);
