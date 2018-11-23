@@ -11,14 +11,23 @@ function drawHanoi(){
 function myClick(rod){
 	switch(rod) {
     case 1:
-		document.getElementById("r1").innerHTML = stack1.pop();
+		if(stack1.length>0)
+			document.getElementById("r1").innerHTML =(stack1.length +'<br/>'+ stack1.pop());
+		if(stack1.length==0)
+			document.getElementById("r1").innerHTML =(stack1.length +'<br/>'+ 0);
         break;
     case 2:
-        document.getElementById("r2").innerHTML = stack2.pop();
+		if(stack2.length>0)
+			document.getElementById("r2").innerHTML =(stack2.length +'<br/>'+ stack2.pop());
+		if(stack2.length==0)
+			document.getElementById("r2").innerHTML =(stack2.length +'<br/>'+ 0);
         break;
 	case 3:
-        document.getElementById("r3").innerHTML = stack3.pop();
-        break;
+        if(stack3.length>0)
+			document.getElementById("r3").innerHTML =(stack3.length +'<br/>'+ stack3.pop());
+        if(stack3.length==0)
+			document.getElementById("r3").innerHTML =(stack3.length +'<br/>'+ 0);
+		break;
     default:
         document.getElementById("game").innerHTML = "WRONG ROD"
 }
