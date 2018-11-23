@@ -5,7 +5,7 @@ stack3.push(5); stack3.push(4);stack3.push(3);
 var currentDisk = 0;
 var currentRod = 0;
 
-function drawHanoi(){
+function drawInitHanoi(){
 	document.getElementById("game").innerHTML = 
 	'<div class="rod" id="r1" onclick="myClick(1)"></div>'+
 	'<div class="rod" id="r2" onclick="myClick(2)"></div>'+
@@ -42,5 +42,4 @@ function myClick(rod){
 		default:
 			document.getElementById("game").innerHTML = "WRONG ROD"
 	}
-	document.getElementById("game").innerHTML += currentRod;
 }
