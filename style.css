@@ -19,3 +19,9 @@ body{
 	text-align:center;
 	font-size:50px;
 }
+#content{
+	width: 960px;
+	min-height: 460px;
+	background-color: #3E3F49;
+	padding: 20px;
+}
