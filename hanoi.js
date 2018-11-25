@@ -105,6 +105,6 @@ function drawStacks(){
 	for (i = stack3.length-1; i >=0 ; i--)
 			document.getElementById("r3").innerHTML += '<img src="hanoiPic/disc' + stack3[i] + '.png" ></img>';
 	
-	document.getElementById("current").innerHTML = "Moves: " + moves;
+	document.getElementById("current").innerHTML = moves;
 			
 }
