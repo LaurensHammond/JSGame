@@ -8,29 +8,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<link rel="stylesheet" href="style.css" type="text/css"/> 
 	<link rel="stylesheet" href="css/bootstrap.min.css"/> 
+	
+	<script type="text/javascript" src="hanoi.js"></script>
+	
 <!--	<link rel="Shortcut icon" href="zdjecia/logoKWSC.jpg" /> 
 	
 	<link rel="stylesheet" href="css/fontello.css" type="text/css"/> 
 -->
 </head>
-<body>
-<div id="container">
-	<div id="top">
-	JavaScript Games<br/>
-	<span style="font-size:20px;">Konrad Łopuszyński</span>
-	</div>
-	<section>
-		<div id="content">
-			<a href="hanoi.html"><div class="gameChoice">Tower of Hanoi</div></a>
-			<a href="calculator.html"><div class="gameChoice">Calculator</div></a>
-		
+<body onload="drawInitHanoi();">
+<section id="content">
+<header class="top">JavaScript Games</header>
+	<div class="container">
+		<div class ="row">
+			<div class="col-sm-6 col-md-4 col-lg-3"><a href="hanoi.html"><div class="gameChoice">Tower of hanoi</div></a></div>
+			<div class="col-sm-6 col-md-4 col-lg-3"><a href="calculator.html"><div class="gameChoice">Calculator</div></a></div>
+			<div class="col-sm-6 col-md-4 col-lg-3"><a href="#"><div class="gameChoice">Example</div></a></div>
+			<div class="col-sm-6 col-md-4 col-lg-3"><a href="#"><div class="gameChoice">Example</div></a></div>	
 		</div>
-	</section>
+	
+	</div>
+</section>
+
 	<div id="footer"> &copy; Konrad Łopuszyński 2018</div>
-</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+ 
