@@ -46,19 +46,21 @@ a{
 }
 #game{
 	background-color:#FFFFFF;
-	width:480px;
-	height:250px;
+	width:50%;
+	min-height:250px;
 	border: 5px solid #666666;
 	margin-left:auto;
 	margin-right:auto;
 }
 .rod{
 	background-image: url("hanoiPic/background.png");
-	width:155px;
-	border: 2.5px solid #999999;
+	background-position:center;
+	width:33%;
+	
 	float: left;
 }
-img{
+#game img{
+	border-radius:10px 10px 0 0;
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
