@@ -35,6 +35,7 @@ body{
 	text-align:center;
 }
 .gameChoice{
+	display: inline-block;
 	font-size:35px;
 	width: 240px;
 	min-height: 50px;
